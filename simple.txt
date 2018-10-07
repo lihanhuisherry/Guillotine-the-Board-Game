@@ -1,0 +1,24 @@
+# Names of some Simple Cards implemented :
+After_You
+Double_Feature
+Double_Feature
+Extra_Cart
+Extra_Cart
+Milling_in_Line
+Milling_in_Line
+Missed
+Missing_Heads
+# Not enough Action cards implemented to support these cards
+# Political_Influence
+# Political_Influence
+Rush_Job
+Scarlet_Pimpernel
+Forced_Break
+The_Long_Walk
+Lack_of_Faith
+Let_Them_Eat_Cake
+Escape
+Bribed_Guards
+Infighting
+Information_Exchange
+Lack_of_Support

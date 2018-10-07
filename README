@@ -1,0 +1,50 @@
+README: This is the final project for my final project.
+
+Please run this game outside of Indy folder.
+
+REQUIREMENTS MET:
+- Players can take turns
+- Action cards have an effects (Very important, most challenging part of this game)
+- Deck Shuffles
+- Can collect nobles and tracks score
+- Restart Button
+- Quit Button
+- Dynamically scaling the window based on the player's computer screen size
+- AI (AI can compete with both other players or other AIs)
+- More than two players
+- Multiple modes (can play with AI or up to 5 players)
+- Secondary game logic(skip turns & inspect discard pile)
+- Game Over Notification
+- Winner Information Notification
+- Import Images
+- User Inputs Extraction
+
+
+DESIGN CHOICE:
+
+Guillotine is a board game first published in 1998. Executioners (Players) will
+take turn cutting heads. The goal is to collect the heads of Nobles, accumulating
+points. Executioners always have to collect the first noble in line; however, by
+playing an action card each turn before cutting the first noble’s head, one
+executioner can change the order of line to possibly move a noble with high score
+to the front of the line. Hence, the key to this game is to best utilize action cards.
+
+Due to the varieties of action cards, the hardest part of this game is to implement
+all of them (without messing everything up at the end). In my project, 30+ action
+cards with distinct functionality are included, each of which can trigger a
+different effects such as noble card movement on the line of the nobles. The
+game has to be implemented with a class for each card because this allows greater
+extendability. Users can add new cards to the game by writing a new class, a png
+file of that card, and the card’s name to the list of cards implemented. After
+that, java.reflect can take care of all the class names listed in those files by
+constructing them dynamically. I also have lots of abstract classes and interfaces
+that factor a lot of shared features of individual classes. The abstract class Game
+and AbPlayer seem to be only extended by one or two classes, but they can be further
+extended if in the future I need to implement this on platforms other than JavaFX.
+My implementation of all cards used in the game, Player and Game implementation
+down to abstract classes are all platform agnostic. To implement the game in
+another platform, for example, the terminal, I just need to add classes TerminalUser
+and TerminalGame, which include not too many methods.
+
+For the graphical part, I used TextField to extract the players’ inputs of their
+names for the game and managed to put 30+ cards in order on the game pane.

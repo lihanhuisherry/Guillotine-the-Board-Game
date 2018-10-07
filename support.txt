@@ -1,0 +1,11 @@
+# Names of the Support Cards:
+Church_Support
+Civic_Support
+Foreign_Support
+Fountain_of_Blood
+Indifferent_Public
+Military_Support
+Tough_Crowd
+
+Not implemented:
+Callous_Guards # because it breaks the game in real life

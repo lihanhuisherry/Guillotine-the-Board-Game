@@ -1,0 +1,24 @@
+# Nobilities:
+Master_Spy
+Tragic_Figure
+Unpopular_Judge
+Unpopular_Judge
+Palace_Guard
+Palace_Guard
+Palace_Guard
+Palace_Guard
+Palace_Guard
+Count
+Countess
+Marie_Antoinette
+
+Lord
+Fast_Noble
+Lady
+Rival_Executioner
+General
+Captain_of_the_Guard
+The_Clown
+Innocent_Victim
+Lady_in_Waiting
+Robespierre
